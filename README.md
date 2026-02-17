@@ -21,10 +21,10 @@ Run the  scriptS from the terminal using the following command to build and test
   
 Input prompts and syntax asked for files are:
   
-    1. Chromosome(s) name- "chrX", example: `chr1`, `chr2`
+ 1. Chromosome(s) name- "chrX", example: `chr1`, `chr2`
     
-    2. TF name- Write one of `ATAC` `CTCF` `REST` `EP300`
+ 2. TF name- Write one of `ATAC` `CTCF` `REST` `EP300`
     
-    3. Order of markov model- Any positive integer less than 200
+ 3. Order of markov model- Any positive integer less than 200
     
-    4. k for k-fold cross validation- Any natural number (1,2,...)
+ 4. k for k-fold cross validation- Any natural number (1,2,...)
