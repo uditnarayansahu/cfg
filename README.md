@@ -9,7 +9,7 @@
 * `helpers.py` - Helper functions 
 * `main.py` - Primary file to run model on a set of chromosome(s) to build a model. Does train:test split and runs a Markov model.
 * `simplerVersion.py` - Simpler version of code to train a Markov model of order m on the full set of sequences in the given file and print out on the screen the log likelihood score of the same sequences using the trained model.
-* `for_google_form.py` - Code with loops to get the outputs of avg AUC and avg area under PRC, after performing 5 fold cross-validation on "Chromosome4" file. 
+* `for_google_form.py` - Code with loops to get the outputs of avg AUC and avg area under PRC, after performing 5 fold cross-validation on "Chromosome4" file for orders {0,1,2,...,10}. 
 * `data/` - Folder containing the `.fa` files
 * `ref/` -Folder containing the annotaions for TFs.
 
