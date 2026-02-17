@@ -18,8 +18,13 @@
 Run the  scriptS from the terminal using the following command to build and test a markov model.
     Example: python main.py
   then Give the inputs when prompted.
+  
 Input prompts and syntax asked for files are:
+  
     1. Chromosome(s) name- "chrX", example: `chr1`, `chr2`
+    
     2. TF name- Write one of `ATAC` `CTCF` `REST` `EP300`
+    
     3. Order of markov model- Any positive integer less than 200
+    
     4. k for k-fold cross validation- Any natural number (1,2,...)
